@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 
 # Use Redis adapter to run Action Cable in production

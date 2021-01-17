@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 
 # Use Redis adapter to run Action Cable in production
@@ -53,6 +54,7 @@ group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'minitest-reporters', '>= 1.0.5'
   gem 'mini_backtrace', '>= 0.1.3'
+  gem 'rails-controller-testing'
   gem 'guard-minitest', '>= 2.3.1'
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'

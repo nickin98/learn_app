@@ -61,4 +61,6 @@ Rails.application.configure do
   #config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   config.file_watcher = ActiveSupport::FileUpdateChecker
 
+  config.reload_classes_only_on_change = false
+
 end
